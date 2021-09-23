@@ -1,16 +1,10 @@
 {
   "dependencies": {
-    "mssql1": {
+    "mssql2": {
       "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/aspnet-core-dotnet-coredbserver/databases/aspnet-core-dotnet-core_db",
       "type": "mssql.azure",
-      "connectionId": "DefaultConnection",
-      "secretStore": "AzureAppSettings"
-    },
-    "mssql2": {
-      "type": "mssql",
       "connectionId": "ConnectionStrings:DefaultConnection",
-      "suggestion": "true",
-      "ignored": "true"
+      "secretStore": "AzureAppSettings"
     }
   }
 }
